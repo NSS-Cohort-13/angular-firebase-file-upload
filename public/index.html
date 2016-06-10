@@ -8,6 +8,11 @@
     <div ng-app="app">
       <div ng-controller="UploadCtrl as up">
         <h1>{{up.heading}}</h1>
+        <form ng-submit="up.submit()">
+          <input type="file" accept="image/*" />
+          <input type="submit" value="Upload Now!" />
+        </form>
+        <img ng-src="{{photo.url}}" ng-repeat="photo in up.photos" />
       </div>
     </div>
     <script src="lib/angular/angular.min.js"></script>
