@@ -1,0 +1,24 @@
+{
+  "name": "angular-firebase-file-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSS-Cohort-13/angular-firebase-file-upload.git"
+  },
+  "keywords": [],
+  "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NSS-Cohort-13/angular-firebase-file-upload/issues"
+  },
+  "homepage": "https://github.com/NSS-Cohort-13/angular-firebase-file-upload#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
