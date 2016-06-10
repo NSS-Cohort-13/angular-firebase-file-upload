@@ -1,0 +1,1 @@
+# angular-firebase-file-upload
